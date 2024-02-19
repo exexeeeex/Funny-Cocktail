@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "FunnyCocktail.Controllers.CocktailController",
+    "Method": "AddCocktail",
+    "RelativePath": "api/cocktails/addcocktail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cocktailDTO",
+        "Type": "Domain.DTOS.CocktailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FunnyCocktail.Controllers.CocktailController",
+    "Method": "GetAll",
+    "RelativePath": "api/cocktails/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FunnyCocktail.Controllers.IngredientController",
+    "Method": "AddIngredient",
+    "RelativePath": "api/ingredients/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingredient",
+        "Type": "Domain.Entities.Ingredient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FunnyCocktail.Controllers.IngredientController",
+    "Method": "RemoveIngredient",
+    "RelativePath": "api/ingredients/remove",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

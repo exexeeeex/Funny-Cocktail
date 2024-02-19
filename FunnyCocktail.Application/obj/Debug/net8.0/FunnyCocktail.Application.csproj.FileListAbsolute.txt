@@ -1,0 +1,17 @@
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\bin\Debug\net8.0\FunnyCocktail.Application.deps.json
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\bin\Debug\net8.0\FunnyCocktail.Application.runtimeconfig.json
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\bin\Debug\net8.0\FunnyCocktail.Application.dll
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\bin\Debug\net8.0\FunnyCocktail.Application.pdb
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\bin\Debug\net8.0\Domain.dll
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\bin\Debug\net8.0\Domain.pdb
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.csproj.AssemblyReference.cache
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.AssemblyInfoInputs.cache
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.AssemblyInfo.cs
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.csproj.CoreCompileInputs.cache
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCoc.2AE4F04B.Up2Date
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.dll
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\refint\FunnyCocktail.Application.dll
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.pdb
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\FunnyCocktail.Application.genruntimeconfig.cache
+B:\funnycocktail\FunnyCocktail\FunnyCocktail.Application\obj\Debug\net8.0\ref\FunnyCocktail.Application.dll
