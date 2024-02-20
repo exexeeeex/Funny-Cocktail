@@ -56,6 +56,9 @@ namespace Domain.Migrations
                     b.Property<int>("AuthorId")
                         .HasColumnType("integer");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
                     b.Property<string>("Name")
                         .HasColumnType("text");
 

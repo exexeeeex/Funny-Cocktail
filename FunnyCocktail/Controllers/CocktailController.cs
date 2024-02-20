@@ -19,5 +19,10 @@ namespace FunnyCocktail.Controllers
         [Route("/api/cocktails/getall")]
         public async Task<IActionResult> GetAll() =>
             Ok(await _cocktailService.GetAllCocktailsAsync());
+
+        [HttpGet]
+        [Route("/api/cocktails/getbyid")]
+        public async Task<IActionResult> GetById(int Id) =>
+            Ok(await _cocktailService.GetCocktailByIdAsync(Id));
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunnyCocktail.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d4eaa438e40866fd679832f6f4ca23d5c74d0c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunnyCocktail.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunnyCocktail.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

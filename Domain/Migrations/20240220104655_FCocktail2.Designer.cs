@@ -11,8 +11,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Domain.Migrations
 {
     [DbContext(typeof(ApplicationDataBaseContext))]
-    [Migration("20240219171835_FCocktail_2")]
-    partial class FCocktail_2
+    [Migration("20240220104655_FCocktail2")]
+    partial class FCocktail2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -58,6 +58,9 @@ namespace Domain.Migrations
 
                     b.Property<int>("AuthorId")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
 
                     b.Property<string>("Name")
                         .HasColumnType("text");

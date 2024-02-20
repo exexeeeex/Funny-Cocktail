@@ -5,5 +5,6 @@ namespace Domain.Interfaces
     {
         public Task<string> CreateCocktailAsync(CocktailDTO cocktailDTO);
         public Task<List<CocktailListDTO>> GetAllCocktailsAsync();
+        public Task<CocktailListDTO> GetCocktailByIdAsync(int Id);
     }
 }

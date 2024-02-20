@@ -26,6 +26,7 @@ namespace FunnyCocktail.Application.Services
             }
 
             var authorId = await _context.Authors.FirstOrDefaultAsync(a => a.Username.ToLower().Equals(cocktailDTO.AuthorUsername.ToLower()));
+            authorId.NumberOfCocktails += 1;
 
             await _context.Cocktails.AddAsync(new Cocktail()
             {
@@ -64,14 +65,22 @@ namespace FunnyCocktail.Application.Services
         {
             var cockatilList = await _context.Cocktails.ToListAsync();
             var cocktailDtoList = new List<CocktailListDTO>();
+            var allCocktailIngredients = _context.CocktailIngredients.ToList();
 
             foreach (var item in cockatilList)
             {
-                var ingredientList = new List<int>();
+                var ingredientList = new List<Ingredient>();
                 var author = await _context.Authors.FirstOrDefaultAsync(a => a.Id == item.AuthorId);
 
-                foreach (var ingredient in _context.CocktailIngredients.Where(c => c.CocktailId == item.Id))
-                    ingredientList.Add(ingredient.IngredientId);
+                var cocktailIngredients = allCocktailIngredients.Where(c => c.CocktailId == item.Id);
+
+                foreach (var cocktailIngredient in cocktailIngredients)
+                {
+                    var ingredientId = cocktailIngredient.IngredientId;
+                    var ingredient = await _context.Ingredients.FirstOrDefaultAsync(i => i.Id == ingredientId);
+
+                    if (ingredient != null) ingredientList.Add(ingredient);
+                }
 
                 var cocktailModel = new CocktailListDTO()
                 {
@@ -84,8 +93,35 @@ namespace FunnyCocktail.Application.Services
 
                 cocktailDtoList.Add(cocktailModel);
             }
-
             return cocktailDtoList;
+        }
+
+        public async Task<CocktailListDTO> GetCocktailByIdAsync(int Id)
+        {
+            var cocktail = await _context.Cocktails.FirstOrDefaultAsync(c => c.Id == Id);
+            var allCocktailIngredient = await _context.CocktailIngredients.ToListAsync();
+            var author = await _context.Authors.FirstOrDefaultAsync(a => a.Id == cocktail.AuthorId);
+
+            var cocktailModel = new CocktailListDTO();
+
+            foreach(var item in allCocktailIngredient)
+            {
+                var ingredientList = new List<Ingredient>();
+                var ingredientId = item.IngredientId;
+                var ingredient = await _context.Ingredients.FirstOrDefaultAsync(i => i.Id == ingredientId);
+                ingredientList.Add(ingredient);
+
+                var cocktailModelTemp = new CocktailListDTO()
+                {
+                    Id = cocktail.Id,
+                    AuthorName = author.Username,
+                    CocktailName = cocktail.Name,
+                    PowerId = cocktail.PowerId,
+                    Ingredients = ingredientList
+                };
+                cocktailModel = cocktailModelTemp;
+            }
+            return cocktailModel;
         }
     }
 }

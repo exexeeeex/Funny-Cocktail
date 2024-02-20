@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FunnyCocktail.Controllers.CocktailController",
+    "Method": "GetById",
+    "RelativePath": "api/cocktails/getbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FunnyCocktail.Controllers.IngredientController",
     "Method": "AddIngredient",
     "RelativePath": "api/ingredients/add",

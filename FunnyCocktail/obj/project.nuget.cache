@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4SgbW5Kh8W1ozTgdS4NSIzb05sQw6yxUXdl15qohSE7Ugm2V4ICZbYIM3q8eC2bFhWNJTM/6sh2WsP0oXyhV7g==",
+  "dgSpecHash": "tL1Cg0sfIJaJY/BRrJ77umc2SPt1UnmNX+5YtJcsw5jI7ND3Zw6jrZJ9DjwwY3KdDTHwhO64013eRBy4Q/Fcvw==",
   "success": true,
-  "projectFilePath": "B:\\funnycocktail\\FunnyCocktail\\FunnyCocktail\\FunnyCocktail.csproj",
+  "projectFilePath": "B:\\funnycocktail\\Funny-Cocktail\\FunnyCocktail\\FunnyCocktail.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fosiu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\fosiu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
