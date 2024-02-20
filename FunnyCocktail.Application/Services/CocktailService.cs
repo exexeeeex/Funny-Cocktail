@@ -19,7 +19,7 @@ namespace FunnyCocktail.Application.Services
                 await _context.AddAsync(new Author()
                 {
                     Username = cocktailDTO.AuthorUsername,
-                    NumberOfCocktails = 1,
+                    NumberOfCocktails = 0,
                     RoleId = 4
                 });
                 await _context.SaveChangesAsync();
@@ -51,8 +51,18 @@ namespace FunnyCocktail.Application.Services
             var ingredientList = new List<int>();
             int powerSum = 0;
 
+            var allIngredients = await _context.Ingredients.ToListAsync();
+
             foreach (var item in _context.CocktailIngredients.Where(c => c.CocktailId == cocktailId.Id)) ingredientList.Add(item.IngredientId);
-            foreach (var ingredientItem in ingredientList) powerSum += 10;
+            foreach (var ingredientItem in ingredientList)
+            {
+                foreach(var item in allIngredients.Where(i => i.Id == ingredientItem))
+                {
+                    if (item.PowerId == 1) powerSum += 30;
+                    else if (item.PowerId == 2) powerSum += 20;
+                    else powerSum += 10;
+                }
+            }
             if (powerSum >= 10 && powerSum <= 40) cocktailId.PowerId = 3;
             else if (powerSum >= 30 && powerSum <= 60) cocktailId.PowerId = 2;
             else if (powerSum >= 50 && powerSum <= 80) cocktailId.PowerId = 1;
