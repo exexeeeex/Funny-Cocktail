@@ -9,21 +9,13 @@ namespace FunnyCocktail.Application.Services
     public class CocktailService(ApplicationDataBaseContext context) : ICocktailService
     {
         private readonly ApplicationDataBaseContext _context = context;
+
         public async Task<string> CreateCocktailAsync(CocktailDTO cocktailDTO)
         {
             var cocktail = await _context.Cocktails.FirstOrDefaultAsync(c => c.Name.ToLower().Equals(cocktailDTO.Name.ToLower()));
             if (cocktail != null) throw new ArgumentException("Коктейль с таким именем уже существует");
             var author = await _context.Authors.FirstOrDefaultAsync(a => a.Username.ToLower().Equals(cocktailDTO.AuthorUsername.ToLower()));
-            if (author == null)
-            {
-                await _context.AddAsync(new Author()
-                {
-                    Username = cocktailDTO.AuthorUsername,
-                    NumberOfCocktails = 0,
-                    RoleId = 4
-                });
-                await _context.SaveChangesAsync();
-            }
+            if (author == null) await CreateUserAsync(cocktailDTO);
 
             var authorId = await _context.Authors.FirstOrDefaultAsync(a => a.Username.ToLower().Equals(cocktailDTO.AuthorUsername.ToLower()));
             authorId.NumberOfCocktails += 1;
@@ -32,9 +24,11 @@ namespace FunnyCocktail.Application.Services
             {
                 AuthorId = authorId.Id,
                 Name = cocktailDTO.Name,
+                Description = cocktailDTO.Description,
                 PowerId = 1,
             });
             await _context.SaveChangesAsync();
+            AddingUserRole(authorId.Username);
             var cocktailId = await _context.Cocktails.FirstOrDefaultAsync(c => c.Name.ToLower().Equals(cocktailDTO.Name.ToLower()));
 
             foreach (var item in cocktailDTO.IngredientsId)
@@ -69,6 +63,27 @@ namespace FunnyCocktail.Application.Services
             else cocktailId.PowerId = 1;
             await _context.SaveChangesAsync();
             return $"{cocktailDTO.Name} успешно добавлен!";
+        }
+
+        public bool AddingUserRole(string username)
+        {
+            var author = _context.Authors.FirstOrDefault(a => a.Username == username);
+            if (author.NumberOfCocktails >= 10) author.RoleId = 3;
+            if (author.NumberOfCocktails >= 50) author.RoleId = 2;
+            _context.SaveChanges();
+            return true;
+        }
+
+        public async Task<bool> CreateUserAsync(CocktailDTO cocktailDTO)
+        {
+            await _context.AddAsync(new Author()
+            {
+                Username = cocktailDTO.AuthorUsername,
+                NumberOfCocktails = 0,
+                RoleId = 4
+            });
+            await _context.SaveChangesAsync();
+            return true;
         }
 
         public async Task<List<CocktailListDTO>> GetAllCocktailsAsync()

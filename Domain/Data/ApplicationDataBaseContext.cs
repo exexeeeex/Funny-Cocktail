@@ -11,6 +11,8 @@ namespace Domain.Data
         public DbSet<Ingredient> Ingredients => Set<Ingredient>();
         public DbSet<Power> Powers => Set<Power>();
         public DbSet<CocktailIngredient> CocktailIngredients => Set<CocktailIngredient>();
+        public DbSet<CocktailGrade> CocktailGrades => Set<CocktailGrade>();
+        public DbSet<CocktailReview> CocktailReviews => Set<CocktailReview>();
 
         public ApplicationDataBaseContext(DbContextOptions<ApplicationDataBaseContext> options) : base(options) { }
 
