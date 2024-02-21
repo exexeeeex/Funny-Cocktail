@@ -45,7 +45,7 @@
 # Responce:
 <p>Название успешно добавлен!</p>
 
-<h1>api/cocktails/getbyid?Id=1</h1>
+<h1>api/cocktails/getbyid?Id={id}</h1>
 # Request: 
 <p>curl -X 'GET' \
   'https://localhost:1337/api/cocktails/getbyid?Id=1' \
