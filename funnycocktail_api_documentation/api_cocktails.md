@@ -4,64 +4,64 @@
   'https://localhost:1337/api/cocktails/getall' \
   -H 'accept: */*'</p>
 # Respone: 
-<p>[
-  {
-    "id": 1,
-    "cocktailName": "Олег",
-    "authorName": "Название!",
-    "powerId": 2,
-    "ingredients": [
-      {
-        "name": "Апельсиновый сок",
-        "image": "Хранить в base64",
-        "powerId": 1,
-        "id": 1
-      },
-      {
-        "name": "Пиво",
-        "image": "Хранить в base64",
-        "powerId": 2,
-        "id": 2
-      }
-    ]
-  }
+<p>[ <br/>
+  {<br/>
+    "id": 1,<br/>
+    "cocktailName": "Олег",<br/>
+    "authorName": "Название!",<br/>
+    "powerId": 2,<br/>
+    "ingredients": [<br/>
+      {<br/>
+        "name": "Апельсиновый сок",<br/>
+        "image": "Хранить в base64",<br/>
+        "powerId": 1,<br/>
+        "id": 1<br/>
+      },<br/>
+      {<br/>
+        "name": "Пиво",<br/>
+        "image": "Хранить в base64",<br/>
+        "powerId": 2,<br/>
+        "id": 2<br/>
+      }<br/>
+    ]<br/>
+  }<br/>
 ]</p>
 
 <h1>api/cocktails/addcocktail</h1>
 # Request: 
-<p>curl -X 'POST' \
-  'https://localhost:1337/api/cocktails/addcocktail' \
-  -H 'accept: */*' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 0,
-  "name": "Название",
-  "description": "Описание!",
-  "authorUsername": "Нейм автора!",
-  "ingredientsId": [
-    1, 2
-  ]
+<p>curl -X 'POST' \<br/>
+  'https://localhost:1337/api/cocktails/addcocktail' \<br/>
+  -H 'accept: */*' \<br/>
+  -H 'Content-Type: application/json' \<br/>
+  -d '{<br/>
+  "id": 0,<br/>
+  "name": "Название",<br/>
+  "description": "Описание!",<br/>
+  "authorUsername": "Нейм автора!",<br/>
+  "ingredientsId": [<br/>
+    1, 2<br/>
+  ]<br/>
 }'</p>
 # Responce:
 <p>Название успешно добавлен!</p>
 
 <h1>api/cocktails/getbyid?Id={id}</h1>
 # Request: 
-<p>curl -X 'GET' \
-  'https://localhost:1337/api/cocktails/getbyid?Id=1' \
-  -H 'accept: */*'</p>
+<p>curl -X 'GET' \<br/>
+  'https://localhost:1337/api/cocktails/getbyid?Id=1' \<br/>
+  -H 'accept: */*'</p><br/>
 # Responce:
-<p>{
-  "id": 1,
-  "cocktailName": "Олег",
-  "authorName": "Название!",
-  "powerId": 2,
-  "ingredients": [
-    {
-      "name": "Пиво",
-      "image": "Хранить в base64",
-      "powerId": 2,
-      "id": 2
-    }
-  ]
+<p>{<br/>
+  "id": 1,<br/>
+  "cocktailName": "Олег",<br/>
+  "authorName": "Название!",<br/>
+  "powerId": 2,<br/>
+  "ingredients": [<br/>
+    {<br/>
+      "name": "Пиво",<br/>
+      "image": "Хранить в base64",<br/>
+      "powerId": 2,<br/>
+      "id": 2<br/>
+    }<br/>
+  ]<br/>
 }</p>
