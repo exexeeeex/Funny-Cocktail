@@ -52,3 +52,7 @@ body::-webkit-scrollbar {
 .btn:hover{
     background: #ca009e;
 }
+
+img{
+    user-select: none;
+}

@@ -26,18 +26,41 @@ namespace FunnyCocktail.Application.Services
             return true;
         }
 
-        public async Task<List<CocktailReviewDTO>> GetAllCocktailReviewsByIdAsync(int Id)
+        public async Task<List<CocktailReviewDTO>> GetAllCocktailReviewsAsync()
         {
-            var cocktailReviewsListTemp = await _context.CocktailReviews.Where(c => c.CocktailId == Id).ToListAsync();
+            var cocktailReviewsListTemp = await _context.CocktailReviews.ToListAsync();
             var cocktailReviewList = new List<CocktailReviewDTO>();
-            foreach(var item in cocktailReviewsListTemp)
+            foreach (var item in cocktailReviewsListTemp)
             {
+                var cocktail = await _context.Cocktails.FirstOrDefaultAsync(c => c.Id == item.CocktailId);
                 var author = await _context.Authors.FirstOrDefaultAsync(a => a.Id == item.AuthorId);
                 var cocktailReviewModel = new CocktailReviewDTO()
                 {
                     Username = author.Username,
                     ReviewText = item.ReviewText,
                     CocktailId = item.CocktailId,
+                    CocktailName = cocktail.Name,
+                    Id = item.Id,
+                };
+                cocktailReviewList.Add(cocktailReviewModel);
+            }
+            return cocktailReviewList;
+        }
+
+        public async Task<List<CocktailReviewDTO>> GetAllCocktailReviewsByIdAsync(int Id)
+        {
+            var cocktailReviewsListTemp = await _context.CocktailReviews.Where(c => c.CocktailId == Id).ToListAsync();
+            var cocktailReviewList = new List<CocktailReviewDTO>();
+            foreach(var item in cocktailReviewsListTemp)
+            {
+                var cocktail = await _context.Cocktails.FirstOrDefaultAsync(c => c.Id == item.CocktailId);
+                var author = await _context.Authors.FirstOrDefaultAsync(a => a.Id == item.AuthorId);
+                var cocktailReviewModel = new CocktailReviewDTO()
+                {
+                    Username = author.Username,
+                    ReviewText = item.ReviewText,
+                    CocktailId = item.CocktailId,
+                    CocktailName = cocktail.Name
                 };
                 cocktailReviewList.Add(cocktailReviewModel);
             }
