@@ -1,0 +1,22 @@
+@import url('./../../assets/styles/global-styles.css');
+
+.navbar{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 30px;
+}
+
+.navlink{
+    font-size: 35px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.active-link{
+    color: purple;
+}

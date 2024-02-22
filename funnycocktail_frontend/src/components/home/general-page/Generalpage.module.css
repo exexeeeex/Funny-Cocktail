@@ -1,0 +1,57 @@
+@import url('../../../assets/styles/global-styles.css');
+.generalpageinner{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto;
+}
+
+.inner{
+    flex-direction: column;
+    text-align: left;
+}
+
+.innertoptext{
+    color: black;
+    font-size: 96px;
+    margin-top: -50px;
+}
+
+.innerbottext{
+    font-size: 40px;
+    width: 870px;
+    margin-bottom: 25px;
+}
+
+.imgs{
+    position: relative;
+    z-index: 1;
+}
+
+.bottle{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+}
+
+/* .bottle:hover{
+    transform: translateY(10px);
+} */
+
+
+
+@keyframes wave {
+    from{
+        transform: translateY(0px)
+    }
+    50%{
+        transform: translateY(10px)
+    }
+    to{
+        transform: translateY(0px)
+    }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: pink;
+  }
+  
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    background-color: #f9f9fd;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1640px;
+}
+
+.activelink{
+    color: pink;
+    text-decoration: none;
+}
+
+.btn{
+    background: #FF00C7;
+    padding: 11px 24px; 
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .2s linear;
+    width: 200px;
+    text-align: center;
+}
+
+.btn:hover{
+    background: #ca009e;
+}
