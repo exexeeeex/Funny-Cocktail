@@ -1,0 +1,45 @@
+.aboutpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 500px auto 0px auto;
+    gap: 310px;
+}
+
+.aboutinner{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerheader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headertext{
+    font-size: 64px;
+    color: #FF00C7;
+}
+
+.headerimg{
+    max-width: 120px;
+    transform: rotate(10deg) ;
+}
+
+.innertext{
+    font-size: 50px;
+    width: 905px;
+    margin-bottom: 20px;
+}
+
+.imgs{
+    position: relative;
+    z-index: 1;
+}
+
+.img{
+    position: relative;
+    z-index: 2;
+}

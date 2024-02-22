@@ -13,6 +13,7 @@ builder.Services.AddScoped<IIngredientService, IngredientService>();
 builder.Services.AddScoped<ICocktailService, CocktailService>();
 builder.Services.AddScoped<ICocktailReviewService, CocktailReviewService>();
 builder.Services.AddScoped<ICocktailGradeService, CocktailGradeService>();
+builder.Services.AddScoped<IAuthorService, AuthorService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
