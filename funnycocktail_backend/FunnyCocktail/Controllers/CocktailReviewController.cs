@@ -16,8 +16,13 @@ namespace FunnyCocktail.Controllers
             Ok(await _cocktailReviewService.CreateReviewAsync(cocktailReviewDTO));
 
         [HttpGet]
-        [Route("/api/cocktailsreviews/getreviews")]
-        public async Task<IActionResult> GetReviews(int Id) =>
+        [Route("/api/cocktailsreviews/getreviewsbyid")]
+        public async Task<IActionResult> GetReviewsById(int Id) =>
             Ok(await _cocktailReviewService.GetAllCocktailReviewsByIdAsync(Id));
+
+        [HttpGet]
+        [Route("/api/cocktailsreviews/getallreviews")]
+        public async Task<IActionResult> GetAllReviews() => 
+            Ok(await _cocktailReviewService.GetAllCocktailReviewsAsync());
     }
 }
