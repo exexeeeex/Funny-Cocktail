@@ -113,6 +113,7 @@ namespace FunnyCocktail.Application.Services
                     AuthorName = author.Username,
                     CocktailName = item.Name,
                     PowerId = item.PowerId,
+                    Description = item.Description,
                     Ingredients = ingredientList,
                 };
 

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{82F0BF34-D082-41C3-A1CB-B62DB165D1CF}|FunnyCocktail.Application\\FunnyCocktail.Application.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\funnycocktail.application\\services\\cocktailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F0BF34-D082-41C3-A1CB-B62DB165D1CF}|FunnyCocktail.Application\\FunnyCocktail.Application.csproj|solutionrelative:funnycocktail.application\\services\\cocktailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\dtos\\cocktaillistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\cocktaillistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\entities\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82F0BF34-D082-41C3-A1CB-B62DB165D1CF}|FunnyCocktail.Application\\FunnyCocktail.Application.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\funnycocktail.application\\services\\cocktailreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F0BF34-D082-41C3-A1CB-B62DB165D1CF}|FunnyCocktail.Application\\FunnyCocktail.Application.csproj|solutionrelative:funnycocktail.application\\services\\cocktailreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15FCABE8-8ECB-4D15-86F6-2E0E3E28FF05}|FunnyCocktail\\FunnyCocktail.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\funnycocktail\\controllers\\cocktailgradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15FCABE8-8ECB-4D15-86F6-2E0E3E28FF05}|FunnyCocktail\\FunnyCocktail.csproj|solutionrelative:funnycocktail\\controllers\\cocktailgradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F0BF34-D082-41C3-A1CB-B62DB165D1CF}|FunnyCocktail.Application\\FunnyCocktail.Application.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\funnycocktail.application\\services\\cocktailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F0BF34-D082-41C3-A1CB-B62DB165D1CF}|FunnyCocktail.Application\\FunnyCocktail.Application.csproj|solutionrelative:funnycocktail.application\\services\\cocktailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\interfaces\\icocktailreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,10 +98,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\funnycocktail\\Funny-Cocktail\\Domain\\Migrations\\20240221124940_FCocktail4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\dtos\\cocktaillistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\cocktaillistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\funnycocktail\\Funny-Cocktail\\Domain\\Migrations\\20240221124757_FCocktail5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -135,10 +139,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\entities\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\cocktail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3BC218C-F254-4A09-810E-05E73D0B277B}|Domain\\Domain.csproj|b:\\funnycocktail\\funny-cocktail\\funnycocktail_backend\\domain\\entities\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -196,33 +196,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICocktailReviewService.cs",
-              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\ICocktailReviewService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\ICocktailReviewService.cs",
-              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\ICocktailReviewService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\ICocktailReviewService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T08:43:50.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CocktailReviewController.cs",
-              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\CocktailReviewController.cs",
-              "RelativeDocumentMoniker": "FunnyCocktail\\Controllers\\CocktailReviewController.cs",
-              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\CocktailReviewController.cs",
-              "RelativeToolTip": "FunnyCocktail\\Controllers\\CocktailReviewController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T09:57:12.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CocktailReviewService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Application\\Services\\CocktailReviewService.cs",
               "RelativeDocumentMoniker": "FunnyCocktail.Application\\Services\\CocktailReviewService.cs",
@@ -235,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CocktailReviewDTO.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\CocktailReviewDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOS\\CocktailReviewDTO.cs",
@@ -243,25 +217,24 @@
               "RelativeToolTip": "Domain\\DTOS\\CocktailReviewDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T08:44:38.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T08:44:38.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "CocktailService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Application\\Services\\CocktailService.cs",
               "RelativeDocumentMoniker": "FunnyCocktail.Application\\Services\\CocktailService.cs",
               "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Application\\Services\\CocktailService.cs",
               "RelativeToolTip": "FunnyCocktail.Application\\Services\\CocktailService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAgwFIAAAAaAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwHMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T16:35:27.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CocktailGradeController.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\CocktailGradeController.cs",
               "RelativeDocumentMoniker": "FunnyCocktail\\Controllers\\CocktailGradeController.cs",
@@ -269,12 +242,11 @@
               "RelativeToolTip": "FunnyCocktail\\Controllers\\CocktailGradeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T12:23:16.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T12:23:16.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IngredientService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Application\\Services\\IngredientService.cs",
               "RelativeDocumentMoniker": "FunnyCocktail.Application\\Services\\IngredientService.cs",
@@ -282,12 +254,11 @@
               "RelativeToolTip": "FunnyCocktail.Application\\Services\\IngredientService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T12:19:03.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T12:19:03.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CocktailGradeService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Application\\Services\\CocktailGradeService.cs",
               "RelativeDocumentMoniker": "FunnyCocktail.Application\\Services\\CocktailGradeService.cs",
@@ -295,12 +266,11 @@
               "RelativeToolTip": "FunnyCocktail.Application\\Services\\CocktailGradeService.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T12:15:35.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-21T12:15:35.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Program.cs",
               "RelativeDocumentMoniker": "FunnyCocktail\\Program.cs",
@@ -308,12 +278,61 @@
               "RelativeToolTip": "FunnyCocktail\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T10:55:37.986Z",
+              "WhenOpened": "2024-02-19T10:55:37.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CocktailListDTO.cs",
+              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\CocktailListDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOS\\CocktailListDTO.cs",
+              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\CocktailListDTO.cs",
+              "RelativeToolTip": "Domain\\DTOS\\CocktailListDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T17:26:11.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Cocktail.cs",
+              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\Cocktail.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Cocktail.cs",
+              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\Cocktail.cs",
+              "RelativeToolTip": "Domain\\Entities\\Cocktail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T11:25:14.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CocktailReviewController.cs",
+              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\CocktailReviewController.cs",
+              "RelativeDocumentMoniker": "FunnyCocktail\\Controllers\\CocktailReviewController.cs",
+              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\CocktailReviewController.cs",
+              "RelativeToolTip": "FunnyCocktail\\Controllers\\CocktailReviewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:57:12.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICocktailReviewService.cs",
+              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\ICocktailReviewService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ICocktailReviewService.cs",
+              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\ICocktailReviewService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ICocktailReviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:43:50.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Application\\Services\\AuthorService.cs",
               "RelativeDocumentMoniker": "FunnyCocktail.Application\\Services\\AuthorService.cs",
@@ -321,12 +340,11 @@
               "RelativeToolTip": "FunnyCocktail.Application\\Services\\AuthorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T13:47:02.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T13:47:02.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IngredientConfiguration.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\EntityConfigurations\\IngredientConfiguration.cs",
               "RelativeDocumentMoniker": "Domain\\EntityConfigurations\\IngredientConfiguration.cs",
@@ -338,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AuthorConfiguration.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\EntityConfigurations\\AuthorConfiguration.cs",
               "RelativeDocumentMoniker": "Domain\\EntityConfigurations\\AuthorConfiguration.cs",
@@ -350,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "RoleConfiguration.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\EntityConfigurations\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "Domain\\EntityConfigurations\\RoleConfiguration.cs",
@@ -362,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PowerConfiguration.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\EntityConfigurations\\PowerConfiguration.cs",
               "RelativeDocumentMoniker": "Domain\\EntityConfigurations\\PowerConfiguration.cs",
@@ -374,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CocktailReviewServiceTests.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Tests\\CocktailReviewServiceTests.cs",
               "RelativeDocumentMoniker": "FunnyCocktail.Tests\\CocktailReviewServiceTests.cs",
@@ -386,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IAuthorService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\IAuthorService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IAuthorService.cs",
@@ -398,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AuthorDTO.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\AuthorDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOS\\AuthorDTO.cs",
@@ -410,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "FunnyCocktail\\Controllers\\AuthorController.cs",
@@ -422,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "FunnyCocktail.Tests.csproj",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail.Tests\\FunnyCocktail.Tests.csproj",
               "RelativeDocumentMoniker": "FunnyCocktail.Tests\\FunnyCocktail.Tests.csproj",
@@ -434,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CocktailDTO.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\CocktailDTO.cs",
               "RelativeDocumentMoniker": "Domain\\DTOS\\CocktailDTO.cs",
@@ -446,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ApplicationDataBaseContext.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Data\\ApplicationDataBaseContext.cs",
               "RelativeDocumentMoniker": "Domain\\Data\\ApplicationDataBaseContext.cs",
@@ -458,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Author.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\Author.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Author.cs",
@@ -470,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CocktailController.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\CocktailController.cs",
               "RelativeDocumentMoniker": "FunnyCocktail\\Controllers\\CocktailController.cs",
@@ -482,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "20240221124757_FCocktail5.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\Domain\\Migrations\\20240221124757_FCocktail5.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Migrations\\20240221124757_FCocktail5.cs",
@@ -493,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "20240221124940_FCocktail4.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\Domain\\Migrations\\20240221124940_FCocktail4.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Migrations\\20240221124940_FCocktail4.cs",
@@ -516,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CocktailConfiguration.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\EntityConfigurations\\CocktailConfiguration.cs",
               "RelativeDocumentMoniker": "Domain\\EntityConfigurations\\CocktailConfiguration.cs",
@@ -528,19 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CocktailListDTO.cs",
-              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\CocktailListDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOS\\CocktailListDTO.cs",
-              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\DTOS\\CocktailListDTO.cs",
-              "RelativeToolTip": "Domain\\DTOS\\CocktailListDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T17:26:11.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ICocktailGradeService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\ICocktailGradeService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICocktailGradeService.cs",
@@ -552,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IngredientController.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\FunnyCocktail\\Controllers\\IngredientController.cs",
               "RelativeDocumentMoniker": "FunnyCocktail\\Controllers\\IngredientController.cs",
@@ -564,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CocktailGrade.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\CocktailGrade.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\CocktailGrade.cs",
@@ -576,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CocktailReview.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\CocktailReview.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\CocktailReview.cs",
@@ -588,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ICocktailService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\ICocktailService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICocktailService.cs",
@@ -601,18 +607,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "Cocktail.cs",
-              "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\Cocktail.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Cocktail.cs",
-              "ToolTip": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\Cocktail.cs",
-              "RelativeToolTip": "Domain\\Entities\\Cocktail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T11:25:14.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "Ingredient.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Entities\\Ingredient.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Ingredient.cs",
@@ -624,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "IIngredientService.cs",
               "DocumentMoniker": "B:\\funnycocktail\\Funny-Cocktail\\funnycocktail_backend\\Domain\\Interfaces\\IIngredientService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IIngredientService.cs",
