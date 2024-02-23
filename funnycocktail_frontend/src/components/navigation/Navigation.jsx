@@ -27,8 +27,8 @@ const Navigation = () => {
                     F.A.Q
                 </NavLink>
             </div>
-            <div>
-                Доп.инфо
+            <div className={`${styles.setnickname}`}>
+                Указать никнейм
             </div>
         </div>
         </>

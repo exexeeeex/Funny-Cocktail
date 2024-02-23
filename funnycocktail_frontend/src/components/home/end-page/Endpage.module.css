@@ -1,0 +1,19 @@
+.endpage{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 440px auto 50px auto;
+}
+
+.title{
+    font-size: 75px;
+    color: #FF00C7;
+}
+
+.subtitle{
+    font-size: 55px;
+    width: 710px;
+}

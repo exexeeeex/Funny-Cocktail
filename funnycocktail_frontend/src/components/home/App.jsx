@@ -1,10 +1,8 @@
-import { useEffect, useState } from 'react'
 import './App.css'
 import Generalpage from './general-page/Generalpage'
-import Navigation from '../navigation/Navigation'
 import Aboutpage from './about-page/Aboutpage'
 import Reviewspage from './reviews-page/Reviewspage'
-import { Cocktailservice } from '../../services/cocktail.service'
+import Endpage from './end-page/Endpage'
 
 function App() {
   return (
@@ -12,6 +10,7 @@ function App() {
       <Generalpage/>
       <Aboutpage/>
       <Reviewspage />
+      <Endpage/>
     </>
   )
 }

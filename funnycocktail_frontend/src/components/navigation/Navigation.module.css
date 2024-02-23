@@ -8,6 +8,7 @@
     margin-top: 35px;
     gap: 30px;
     position: sticky;
+    margin-bottom: 20px;
 }
 
 .navlink{
@@ -16,4 +17,19 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-decoration: none;
+}
+
+.setnickname{
+    background: rgb(255, 249, 249);
+    border: 2px solid #FF00C7;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.setnickname:hover{
+    cursor: pointer;
+    border: 2px solid #d600a8;
+    background: rgb(255, 249, 249);
 }

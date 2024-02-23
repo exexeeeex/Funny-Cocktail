@@ -7,6 +7,7 @@ namespace Domain.DTOS
         public int Id { get; set; }
         public string? CocktailName { get; set; }
         public string? AuthorName { get;set; }
+        public string? Description { get; set; }
         public int PowerId { get; set; }
         public List<Ingredient> Ingredients { get; set;} = new List<Ingredient>();
     }
