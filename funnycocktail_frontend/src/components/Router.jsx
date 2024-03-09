@@ -1,13 +1,14 @@
 import { Routes, Route } from "react-router-dom"
 import App from "./home/App"
 import Cocktails from "./cocktails/Cocktails"
+import Cocktailpage from "./cocktail-page/Cocktailpage"
 
 const Router = () => {
     return(
         <Routes>
             <Route element={<App/>} path='/'></Route>
             <Route element={<Cocktails/>} path='/cocktails'></Route>
-            <Route path='/cocktail/:id'></Route>
+            <Route element={<Cocktailpage/>} path='/cocktail/:id'></Route>
             <Route path='*' element={<div style={{
             display: 'flex',
             justifyContent: 'center',

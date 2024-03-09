@@ -5,23 +5,20 @@ using Microsoft.AspNetCore.Mvc;
 namespace FunnyCocktail.Controllers
 {
     [ApiController]
-    [Route("/api/cocktailsreviews")]
+    [Route("/api/cocktailsreviews/")]
     public class CocktailReviewController(ICocktailReviewService cocktailReviewService) : ControllerBase
     {
         private readonly ICocktailReviewService _cocktailReviewService = cocktailReviewService;
 
-        [HttpPost]
-        [Route("/api/cocktailsreviews/addreview")]
+        [HttpPost("addreview")]
         public async Task<IActionResult> AddReview([FromBody] CocktailReviewDTO cocktailReviewDTO) =>
             Ok(await _cocktailReviewService.CreateReviewAsync(cocktailReviewDTO));
 
-        [HttpGet]
-        [Route("/api/cocktailsreviews/getreviewsbyid")]
+        [HttpGet("getreviewsbyid")]
         public async Task<IActionResult> GetReviewsById(int Id) =>
             Ok(await _cocktailReviewService.GetAllCocktailReviewsByIdAsync(Id));
 
-        [HttpGet]
-        [Route("/api/cocktailsreviews/getallreviews")]
+        [HttpGet("getallreviews")]
         public async Task<IActionResult> GetAllReviews() => 
             Ok(await _cocktailReviewService.GetAllCocktailReviewsAsync());
     }

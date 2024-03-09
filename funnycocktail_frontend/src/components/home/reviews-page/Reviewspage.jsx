@@ -3,6 +3,7 @@ import '../../../assets/styles/global-styles.css'
 import Cocktailitem from './cocktail-item/Cocktailitem'
 import { Cocktailservice } from '../../../services/cocktail.service'
 import { useState, useEffect } from 'react'
+import toast from 'react-hot-toast'
 
 const Reviewspage = () => {
 
@@ -15,6 +16,9 @@ const Reviewspage = () => {
               setReviews(responce);
           } catch (error) {
               console.error('Ошибка при загрузке отзывов: ', error);
+              toast.error("Ошибка при загрузке отзывов.", {
+                position: "bottom-right"
+              })
           }
       };
       fetchData(); 

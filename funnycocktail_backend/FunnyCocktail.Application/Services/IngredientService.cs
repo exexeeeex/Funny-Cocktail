@@ -22,6 +22,19 @@ namespace FunnyCocktail.Application.Services
             await _context.SaveChangesAsync();
             return $"Ингредиент {ingredient.Name} успешно добавлен!";
         }
+
+        public async Task<List<Ingredient>> GetIngredientListByCocktailIdAsync(int Id)
+        {
+            var cocktailList = await _context.CocktailIngredients.Where(c => c.CocktailId == Id).ToListAsync();
+            List<Ingredient> ingredientList = [];
+            foreach(var item in cocktailList)
+            {
+                var ingredient = await _context.Ingredients.FirstOrDefaultAsync(i => i.Id == item.IngredientId);
+                ingredientList.Add(ingredient);
+            }
+            return ingredientList;
+        }
+
         public async Task<string> RemoveIngredientAsync(int id)
         {
             var ingredient = await _context.Ingredients.FirstOrDefaultAsync(i => i.Id == id);

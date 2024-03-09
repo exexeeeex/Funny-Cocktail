@@ -50,6 +50,7 @@ namespace FunnyCocktail.Application.Services
         public async Task<List<CocktailReviewDTO>> GetAllCocktailReviewsByIdAsync(int Id)
         {
             var cocktailReviewsListTemp = await _context.CocktailReviews.Where(c => c.CocktailId == Id).ToListAsync();
+            var cocktailReviewCount = await _context.CocktailReviews.CountAsync(c => c.CocktailId == Id);
             var cocktailReviewList = new List<CocktailReviewDTO>();
             foreach(var item in cocktailReviewsListTemp)
             {
@@ -57,10 +58,12 @@ namespace FunnyCocktail.Application.Services
                 var author = await _context.Authors.FirstOrDefaultAsync(a => a.Id == item.AuthorId);
                 var cocktailReviewModel = new CocktailReviewDTO()
                 {
+                    Id = item.Id,
                     Username = author.Username,
                     ReviewText = item.ReviewText,
                     CocktailId = item.CocktailId,
-                    CocktailName = cocktail.Name
+                    CocktailName = cocktail.Name,
+                    ReviewCount = cocktailReviewCount,
                 };
                 cocktailReviewList.Add(cocktailReviewModel);
             }

@@ -1,0 +1,11 @@
+.place{
+    margin: 20px auto;
+}
+
+.ingredientplace{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    max-width: 650px;
+    flex-wrap: wrap;
+}
