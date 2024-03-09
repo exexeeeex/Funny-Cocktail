@@ -1,0 +1,28 @@
+.item{
+    min-width: 20px;
+    height: 80px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 3px solid #BFBFBF;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s linear;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden; 
+    word-wrap: break-word; 
+    gap: 10px;
+    position: relative;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    background: center center no-repeat;
+    background-size: contain;
+    border-radius: 100px;
+}

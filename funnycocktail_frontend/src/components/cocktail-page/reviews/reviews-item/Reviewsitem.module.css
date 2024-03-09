@@ -1,0 +1,26 @@
+.item{
+    width: 500px;
+    min-height: 100px;
+    border-radius: 15px;
+    border: 3px solid #BFBFBF;
+    background-color: #F4F4F4;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: row;
+    justify-content: start;
+    text-decoration: none;
+    align-items: center;
+    transition: .2s linear;
+    position: relative;
+
+
+    padding: 5px 5px;
+    gap: 10px;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    background: center center no-repeat;
+    background-size: cover;
+}

@@ -11,5 +11,6 @@ namespace Domain.Interfaces
     {
         public Task<string> AddIngredientAsync(Ingredient ingredient);
         public Task<string> RemoveIngredientAsync(int id);
+        public Task<List<Ingredient>> GetIngredientListByCocktailIdAsync(int Id);
     }
 }

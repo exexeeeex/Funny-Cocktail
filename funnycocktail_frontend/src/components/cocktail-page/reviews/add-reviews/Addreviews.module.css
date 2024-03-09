@@ -1,0 +1,22 @@
+.place{
+    display: flex;
+    gap: 10px;
+}
+
+.input{
+    width: 500px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 5px 20px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}

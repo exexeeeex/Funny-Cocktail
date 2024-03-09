@@ -1,0 +1,6 @@
+.place{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

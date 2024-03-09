@@ -9,6 +9,5 @@ namespace Domain.DTOS
         public string? AuthorName { get;set; }
         public string? Description { get; set; }
         public int PowerId { get; set; }
-        public List<Ingredient> Ingredients { get; set;} = new List<Ingredient>();
     }
 }

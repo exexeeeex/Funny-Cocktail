@@ -9,7 +9,7 @@ const Cocktailitem = ({cocktail}) => {
     else if(cocktail.powerId == 3) powerColor = 'green'
 
     return(
-        <NavLink key={cocktail.id} className={`${styles.cocktailitem}`}>
+        <NavLink to={`/cocktail/${cocktail.id}`} key={cocktail.id} className={`${styles.cocktailitem}`}>
             <div className={`${styles.cocktailpower}`} style={{backgroundColor: `${powerColor}`}}></div>
                 <h1 className={`${styles.cocktailname}`}>{cocktail.cocktailName}</h1>
                 <h1 className={`${styles.cocktaildesc}`}>{cocktail.description}</h1>
